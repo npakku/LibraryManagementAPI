@@ -1,1 +1,28 @@
+# Visual Studio
 .vs/
+*.suo
+*.user
+*.sln.ide
+
+# Build results
+bin/
+obj/
+
+# NuGet packages
+packages/
+
+# Logs
+*.log
+
+# Node modules (if applicable)
+node_modules/
+
+# Development-specific files
+appsettings.Development.json
+
+# Test folders
+Tests/
+
+# Ignore development settings
+appsettings.Development.json
+

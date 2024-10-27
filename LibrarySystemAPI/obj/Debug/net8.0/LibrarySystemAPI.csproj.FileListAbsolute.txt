@@ -1,4 +1,3 @@
-C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Debug\net8.0\appsettings.json
 C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Debug\net8.0\LibrarySystemAPI.exe
 C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Debug\net8.0\LibrarySystemAPI.deps.json
@@ -184,3 +183,4 @@ C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Debug\ne
 C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Debug\net8.0\runtimes\win-x86\native\capstone.dll
 C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
 C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\obj\Debug\net8.0\LibrarySystemAPI.sourcelink.json

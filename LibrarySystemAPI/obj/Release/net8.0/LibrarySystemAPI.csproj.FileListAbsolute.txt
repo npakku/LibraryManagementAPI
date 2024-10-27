@@ -1,6 +1,5 @@
 C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Release\net8.0\TraceReloggerLib.dll
 C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Release\net8.0\Dia2Lib.dll
-C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Release\net8.0\appsettings.Development.json
 C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Release\net8.0\appsettings.json
 C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Release\net8.0\x86\KernelTraceControl.dll
 C:\Users\abc\Documents\Internship\LibrarySystemAPI\LibrarySystemAPI\bin\Release\net8.0\x86\KernelTraceControl.Win61.dll

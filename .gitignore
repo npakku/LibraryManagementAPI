@@ -26,3 +26,6 @@ Tests/
 # Ignore development settings
 appsettings.Development.json
 
+# Ignore secrets
+appsettings.json
+

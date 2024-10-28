@@ -23,9 +23,5 @@ appsettings.Development.json
 # Test folders
 Tests/
 
-# Ignore development settings
-appsettings.Development.json
 
-# Ignore secrets
-appsettings.json
 

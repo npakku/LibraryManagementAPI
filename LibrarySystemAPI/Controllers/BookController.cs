@@ -12,7 +12,7 @@ using SwaggerOperationAttribute = Swashbuckle.AspNetCore.Annotations.SwaggerOper
 namespace LibrarySystemAPI.Controllers
 {
     [ApiController]
-    [Route("api/v{version:ApiVersion}/[controller]")]
+    [Route("api/v{version:ApiVersion}")]
     [ApiVersion("1.0")] 
     public class BookController : Controller
     {
@@ -25,7 +25,7 @@ namespace LibrarySystemAPI.Controllers
            _mapper = mapper;    
         }
 
-        [HttpGet]
+        [HttpGet("books")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [SwaggerOperation(Summary = "Retrive all Books", Description = "Returns List of Books")]
@@ -40,7 +40,7 @@ namespace LibrarySystemAPI.Controllers
             return Ok(booksFromDb);
         }
 
-        [HttpGet("{bookId}")]
+        [HttpGet("book-detail/{bookId}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [SwaggerOperation(Summary = "Retrieve a Single Book by passing the Id in url", Description ="Returns a Single book")]
@@ -70,7 +70,8 @@ namespace LibrarySystemAPI.Controllers
         [ProducesResponseType(500)]
         [ProducesResponseType(204)]
         [SwaggerOperation(Summary = "Add Book to collection", Description = "Ok response")]
-        public IActionResult AddBook([FromBody] BookDto bookDto)
+        [HttpPost("book-create")]
+        public IActionResult CreateBook([FromBody] BookDto bookDto)
         {
             if (bookDto == null)
             {
@@ -98,7 +99,7 @@ namespace LibrarySystemAPI.Controllers
 
         }
 
-        [HttpPut("{bookId}")]
+        [HttpPut("book-update/{bookId}")]
         [ProducesResponseType(202)]
         [ProducesResponseType(200)]
         [SwaggerOperation(Summary = "Update book in collection", Description = "201 response")]
@@ -135,7 +136,7 @@ namespace LibrarySystemAPI.Controllers
             return NoContent(); 
         }
 
-        [HttpDelete("{bookId}")]
+        [HttpDelete("book-delete/{bookId}")]
         [ProducesResponseType(200)]
         [ProducesResponseType(404)]
         [SwaggerOperation(Summary = "Remove book from collection", Description = "Ok response")]
